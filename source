@@ -61,13 +61,6 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "Fly Gui"
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drinigames/flyguiremake/refs/heads/main/FlyGUIRemake"))()
-   end,
-})
-
 Rayfield:Notify({
    Title = "les goo",
    Content = "FMH hub loaded successfully",
